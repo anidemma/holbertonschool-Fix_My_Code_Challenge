@@ -22,7 +22,7 @@ ARGV.each do |arg|
         end
     end
 
-    result << i_arg unless !is_inserted
+    result << i_arg unless is_inserted
 end
 
 puts result
